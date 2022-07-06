@@ -56,7 +56,7 @@ app.use(
 app.use("/api/users", express.urlencoded({ extended: false }), [usersRouter]);
 
 app.get("/", (req, res) => {
-    res.send("final");
+    res.send("깃헙액션되라!");
 });
 
 // 없는 url로 요청한 경우
